@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shop-api-member" />
+        <module name="shop-commom" />
+        <module name="shop-eureka" />
+        <module name="shop-member" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shop-api" target="1.7" />
+      <module name="shop-api-member" target="1.7" />
+      <module name="shop-commom" target="1.7" />
+      <module name="shop-eureka" target="1.7" />
+      <module name="shop-member" target="1.7" />
+      <module name="shop-parent" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

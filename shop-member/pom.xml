@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>shop-api</artifactId>
+        <groupId>com.herzi</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../shop-api/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>shop-member</artifactId>
+    <dependencies>
+        <!--依赖与接口，因为要实现-->
+        <dependency>
+            <groupId>com.herzi</groupId>
+            <!--项目中包含另外一个包，不能依赖，因为会导致依赖中嵌套依赖-->
+            <artifactId>shop-api-member</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
