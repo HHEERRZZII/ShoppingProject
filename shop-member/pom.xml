@@ -12,10 +12,9 @@
 
     <artifactId>shop-member</artifactId>
     <dependencies>
-        <!--依赖与接口，因为要实现-->
+        <!--服务间的依赖关系-->
         <dependency>
             <groupId>com.herzi</groupId>
-            <!--项目中包含另外一个包，不能依赖，因为会导致依赖中嵌套依赖-->
             <artifactId>shop-api-member</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
