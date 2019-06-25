@@ -11,6 +11,7 @@
         <module name="shop-commom" />
         <module name="shop-eureka" />
         <module name="shop-member" />
+        <module name="shop-message" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="shop-commom" target="1.7" />
       <module name="shop-eureka" target="1.7" />
       <module name="shop-member" target="1.7" />
+      <module name="shop-message" target="1.7" />
       <module name="shop-parent" target="1.7" />
     </bytecodeTargetLevel>
   </component>

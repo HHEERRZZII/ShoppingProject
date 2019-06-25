@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/shop-commom/shop-commom.iml" filepath="$PROJECT_DIR$/shop-commom/shop-commom.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-eureka/shop-eureka.iml" filepath="$PROJECT_DIR$/shop-eureka/shop-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-member/shop-member.iml" filepath="$PROJECT_DIR$/shop-member/shop-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-message/shop-message.iml" filepath="$PROJECT_DIR$/shop-message/shop-message.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-parent/shop-parent.iml" filepath="$PROJECT_DIR$/shop-parent/shop-parent.iml" />
     </modules>
   </component>
