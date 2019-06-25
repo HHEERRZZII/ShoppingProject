@@ -41,6 +41,7 @@ public class ConsumerDistribute {
             messageAdapter = emailService;
         }
         //即如果信息匹配不上的话，就返回。因为传入的是json类型的，如果不是，就返回。
+        //而一旦类型对上，连注入的类，定义好的变量，也会一并继承........牛逼！
         if (messageAdapter == null) {
             return;
         }

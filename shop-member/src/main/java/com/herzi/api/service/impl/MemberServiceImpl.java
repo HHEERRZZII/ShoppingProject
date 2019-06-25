@@ -57,6 +57,7 @@ public class MemberServiceImpl extends BaseApiService implements MemberService {
         }
         //异步的方式发送消息
         String email = user.getEmail();
+        //得到email的基本信息
         String json = emailJson(email);
         log.info("########会员消息已经推送到消息服务平台######## json:{}", json);
         sendMsg(json);
