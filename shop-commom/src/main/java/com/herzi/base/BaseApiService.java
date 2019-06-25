@@ -23,13 +23,17 @@ public class BaseApiService {
     }
 
 
-    //返回 成功，但没有 data值
-    public ResponseBase setResultSuccess() {
+    //返回 成功，有返回信息
+    public ResponseBase setResultSuccess(String msg) {
       /*  ResponseBase responseBase = new ResponseBase();
         responseBase.setRtnCode(Constants.HTTP_RES_CODE_200);
         responseBase.setMsg(Constants.HTTP_RES_CODE_200_VALUE);*/
       //换了个写法，更加简便
-      return setResult(Constants.HTTP_RES_CODE_200, Constants.HTTP_RES_CODE_200_VALUE, null);
+      return setResult(Constants.HTTP_RES_CODE_200, msg, null);
+    }
+
+    public ResponseBase setResultSuccess() {
+        return setResult(Constants.HTTP_RES_CODE_200, Constants.HTTP_RES_CODE_200_VALUE, null);
     }
 
     //通用封装
