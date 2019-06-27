@@ -18,4 +18,9 @@ public interface Constants {
 
     //发送邮件
     String MSG_EMAIL = "email";
+
+    //Token标识码
+    String TOKEN_MEMBER = "TOKEN_MEMBER";
+    //会员token有效期
+    Long TOKEN_MEMBER_TIME = Long.valueOf(60 * 60* 24 * 90);
 }

@@ -1,5 +1,6 @@
 package com.herzi.base;
 
+//封装思想，很值的借鉴！
 public class ResponseBase {
 
     private Integer rtnCode;
