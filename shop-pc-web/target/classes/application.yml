@@ -1,0 +1,10 @@
+server:
+  port: 80
+#  context-path: /web 记住：默认端口号80可以不写的！！！！！！！！！！
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: pc-web

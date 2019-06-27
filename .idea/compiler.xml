@@ -12,6 +12,7 @@
         <module name="shop-eureka" />
         <module name="shop-member" />
         <module name="shop-message" />
+        <module name="shop-pc-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="shop-member" target="1.7" />
       <module name="shop-message" target="1.7" />
       <module name="shop-parent" target="1.7" />
+      <module name="shop-pc-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

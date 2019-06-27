@@ -164,5 +164,6 @@
         <module>../shop-member</module>
         <module>../shop-api/shop-api-member</module>
         <module>../shop-message</module>
+        <module>../shop-pc-web</module>
     </modules>
 </project>
