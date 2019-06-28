@@ -5,6 +5,7 @@ import com.herzi.api.entity.UserEntity;
 import com.herzi.base.ResponseBase;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @RequestMapping("/member")
 public interface MemberService {
@@ -24,6 +25,6 @@ public interface MemberService {
 
     //使用token登陆
     @RequestMapping("/findByTokenUser")
-    ResponseBase findByTokenUser(String token);
+    ResponseBase findByTokenUser(@RequestParam("token") String token);
 
 }

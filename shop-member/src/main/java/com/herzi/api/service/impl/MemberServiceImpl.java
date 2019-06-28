@@ -14,11 +14,15 @@ import com.herzi.utils.TokenUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.activemq.command.ActiveMQQueue;
 import org.apache.commons.lang.StringUtils;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Date;
 
 @Slf4j
 @RestController
@@ -53,6 +57,8 @@ public class MemberServiceImpl extends BaseApiService implements MemberService {
         }
         String newPassword = MD5Util.MD5(password);
         user.setPassword(newPassword);
+        user.setCreated(new Date());
+        user.setUpdated(new Date());
         //Dao中返回的就是新增成功的个数...........别想复杂了！
         Integer code =  memberDao.insertUser(user);
         if (code <= 0) {
@@ -98,7 +104,7 @@ public class MemberServiceImpl extends BaseApiService implements MemberService {
     }
 
     @Override
-    public ResponseBase findByTokenUser(String token) {
+    public ResponseBase findByTokenUser(@RequestParam("token") String token) {
         //1.验证参数
         if (StringUtils.isEmpty(token)) {
             return setResultError("token不能为空!");
