@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c561dfb-ddb0-4dd7-874d-1075d556ce8d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/entity/UserEntity.java" afterPath="$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/entity/UserEntity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/service/MemberService.java" afterPath="$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/service/MemberService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/base/BaseApiService.java" afterPath="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/base/BaseApiService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/constants/Constants.java" afterPath="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/constants/Constants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-member/src/main/java/com/herzi/api/service/impl/MemberServiceImpl.java" afterPath="$PROJECT_DIR$/shop-member/src/main/java/com/herzi/api/service/impl/MemberServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-member/src/main/java/com/herzi/dao/MemberDao.java" afterPath="$PROJECT_DIR$/shop-member/src/main/java/com/herzi/dao/MemberDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/PCWebApp.java" afterPath="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/PCWebApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/controller/IndexController.java" afterPath="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/controller/RegisterController.java" afterPath="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/controller/RegisterController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/feign/MemberServiceFeign.java" afterPath="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/feign/MemberServiceFeign.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-pc-web/src/main/resources/templates/index.ftl" afterPath="$PROJECT_DIR$/shop-pc-web/src/main/resources/templates/index.ftl" />
     </list>
     <ignored path="$PROJECT_DIR$/shop-parent/target/" />
     <ignored path="$PROJECT_DIR$/shop-commom/target/" />
@@ -30,43 +27,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="27">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseApiService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/base/BaseApiService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/service/MemberService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop-pc-web/src/main/resources/templates/index.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberServiceImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MemberServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop-member/src/main/java/com/herzi/api/service/impl/MemberServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="166" column="29" lean-forward="true" selection-start-line="166" selection-start-column="29" selection-end-line="166" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-member/src/main/java/com/herzi/dao/MemberDao.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="106" column="62" lean-forward="false" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="62" />
+              <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/entity/UserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -113,10 +121,8 @@
         <option value="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/utils/DateUtils.java" />
         <option value="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/base/LogAspectServiceApi.java" />
         <option value="$PROJECT_DIR$/shop-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/service/MenberService.java" />
         <option value="$PROJECT_DIR$/shop-eureka/src/main/java/com/herzi/EurekaService.java" />
-        <option value="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/base/BaseApiService.java" />
         <option value="$PROJECT_DIR$/shop-message/pom.xml" />
         <option value="$PROJECT_DIR$/shop-message/src/main/java/com/herzi/adapter/MessageAdapter.java" />
         <option value="$PROJECT_DIR$/shop-member/src/main/java/com/herzi/mq/RegisterMailboxProducer.java" />
@@ -130,16 +136,18 @@
         <option value="$PROJECT_DIR$/shop-pc-web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/shop-pc-web/pom.xml" />
         <option value="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/feign/MemberServiceFeign.java" />
-        <option value="$PROJECT_DIR$/shop-member/src/main/java/com/herzi/dao/MemberDao.java" />
         <option value="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/controller/RegisterController.java" />
         <option value="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/PCWebApp.java" />
         <option value="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/utils/CookieUtil.java" />
-        <option value="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/constants/Constants.java" />
         <option value="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/shop-pc-web/src/main/resources/templates/index.ftl" />
         <option value="$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/shop-member/src/main/java/com/herzi/api/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/constants/Constants.java" />
+        <option value="$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/base/BaseApiService.java" />
         <option value="$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/shop-member/src/main/java/com/herzi/dao/MemberDao.java" />
+        <option value="$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/shop-member/src/main/java/com/herzi/api/service/impl/MemberServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -182,10 +190,11 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="589" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="565" />
+    <option name="y" value="11" />
     <option name="width" value="774" />
-    <option name="height" value="775" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -205,87 +214,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-api-member" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-api-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-api-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-api-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-api-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-api-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="herzi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-api-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="herzi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="shop-api-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="herzi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -331,109 +266,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="herzi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="herzi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-member" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="herzi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-pc-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-pc-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-pc-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-pc-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-pc-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-pc-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="herzi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-pc-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="herzi" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-pc-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="herzi" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-pc-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShopProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-pc-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,6 +290,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="SearchEverywhereHistoryKey" value="usere&#9;FILE&#9;file://E:/ShoppingProjectGit/shop-api/shop-api-member/src/main/java/com/herzi/api/entity/UserEntity.java&#10;cons&#9;FILE&#9;file://E:/ShoppingProjectGit/shop-commom/src/main/java/com/herzi/constants/Constants.java&#10;baseapis&#9;FILE&#9;file://E:/ShoppingProjectGit/shop-commom/src/main/java/com/herzi/base/BaseApiService.java&#10;En&#9;PSI&#9;JAVA://com.herzi.api.entity.UserEntity" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -640,15 +481,17 @@
       <workItem from="1561426515666" duration="18800000" />
       <workItem from="1561536173285" duration="598000" />
       <workItem from="1561594580543" duration="15334000" />
-      <workItem from="1561684452525" duration="11178000" />
+      <workItem from="1561684452525" duration="11298000" />
+      <workItem from="1561776291987" duration="514000" />
+      <workItem from="1561777848150" duration="8834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67069000" />
+    <option name="totallyTimeSpent" value="76537000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -815,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="43" column="11" lean-forward="true" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,11 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#325#326#0" expanded="false" />
-            <element signature="e#390#391#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,9 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#460#461#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,19 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/base/BaseApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/base/ResponseBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,14 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="999">
           <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1620">
           <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,15 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-member/src/main/java/com/herzi/dao/MemberDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,15 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/constants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,11 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1080,43 +863,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-pc-web/src/main/resources/templates/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop-member/src/main/java/com/herzi/api/service/impl/MemberServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/constants/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="106" column="62" lean-forward="false" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="62" />
+        <state relative-caret-position="270">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-commom/src/main/java/com/herzi/base/BaseApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/service/MemberService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        <state relative-caret-position="351">
+          <caret line="39" column="3" lean-forward="false" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop-pc-web/src/main/java/com/herzi/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-api/shop-api-member/src/main/java/com/herzi/api/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-member/src/main/java/com/herzi/dao/MemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop-member/src/main/java/com/herzi/api/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="166" column="29" lean-forward="true" selection-start-line="166" selection-start-column="29" selection-end-line="166" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

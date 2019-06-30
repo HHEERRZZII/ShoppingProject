@@ -17,4 +17,6 @@ public class UserEntity {
     private String email;
     private Date created;
     private Date updated;
+    //openid是由第三方协议生成的
+    private String openid;
 }

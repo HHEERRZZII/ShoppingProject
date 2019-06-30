@@ -16,6 +16,10 @@ public class BaseApiService {
         return setResult(Constants.HTTP_RES_CODE_500, msg, null);
     }
 
+    public ResponseBase setResultError(Integer code,String msg) {
+        return setResult(code, msg, null);
+    }
+
 
     //有数据值
     public ResponseBase setResultSuccess(Object data) {
