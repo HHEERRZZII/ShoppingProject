@@ -3,11 +3,13 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/shop-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-api/shop-api-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-api/shop-api-pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-commom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-message" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shop-pay" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shop-pc-web" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

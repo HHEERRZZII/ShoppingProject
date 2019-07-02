@@ -23,9 +23,11 @@ public interface Constants {
 
     //Token标识码
     String TOKEN_MEMBER = "TOKEN_MEMBER";
+    String TOKEN_PAY = "TOKEN_PAY";
     //会员token有效期
     Long TOKEN_MEMBER_TIME = Long.valueOf(60 * 60* 24 * 90);
     int COOKIE_TOKEN_MEMBER_TIME = 60 * 60* 24 * 90;
+    Long TOKEN_PAY_TIME =  Long.valueOf(60 * 15);
 
     // cookie 会员 totoken 名称
     String COOKIE_MEMBER_TOKEN ="cookie_member_token";

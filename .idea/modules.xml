@@ -4,11 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/shop-api/shop-api.iml" filepath="$PROJECT_DIR$/shop-api/shop-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-api/shop-api-member/shop-api-member.iml" filepath="$PROJECT_DIR$/shop-api/shop-api-member/shop-api-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-api/shop-api-pay/shop-api-pay.iml" filepath="$PROJECT_DIR$/shop-api/shop-api-pay/shop-api-pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-commom/shop-commom.iml" filepath="$PROJECT_DIR$/shop-commom/shop-commom.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-eureka/shop-eureka.iml" filepath="$PROJECT_DIR$/shop-eureka/shop-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-member/shop-member.iml" filepath="$PROJECT_DIR$/shop-member/shop-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-message/shop-message.iml" filepath="$PROJECT_DIR$/shop-message/shop-message.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-parent/shop-parent.iml" filepath="$PROJECT_DIR$/shop-parent/shop-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-pay/shop-pay.iml" filepath="$PROJECT_DIR$/shop-pay/shop-pay.iml" />
       <module fileurl="file://$PROJECT_DIR$/shop-pc-web/shop-pc-web.iml" filepath="$PROJECT_DIR$/shop-pc-web/shop-pc-web.iml" />
     </modules>
   </component>

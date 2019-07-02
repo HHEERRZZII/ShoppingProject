@@ -9,4 +9,8 @@ public class TokenUtils {
             //可能会生成多个token，所以加上uuid
             return Constants.TOKEN_MEMBER + "-" + UUID.randomUUID();
         }
+        public static String getPayToken() {
+        //可能会生成多个token，所以加上uuid
+        return Constants.TOKEN_PAY + "-" + UUID.randomUUID();
+        }
 }
